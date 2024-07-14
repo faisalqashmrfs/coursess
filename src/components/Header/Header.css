@@ -107,6 +107,12 @@
             background-size: contain;
         }
         
+        .linkk {
+            color: blue !important;
+            cursor: pointer !important;
+            margin-left: 5px;
+        }
+        
         @media (max-width: 1400px) {
             .H {
                 padding: 0px;
@@ -237,11 +243,14 @@
                 right: 0px;
                 margin: auto;
                 margin-top: 500px !important;
+                background-image: url('./assets/images/Hero_Images/Main page/Ellipse 21.png');
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
             }
             .colum {
                 display: none;
             }
-            
         }
         
         @media (max-width:771px) {
@@ -259,17 +268,26 @@
         }
         
         @media (max-width:440px) {
+            .H p {
+                width: 100%;
+                font-size: 12px;
+            }
+            .contain-header {
+                height: 110vh;
+                padding: 100px 10px;
+            }
             .R-header {
-                padding-top: 50px;
+                padding-top: 20px;
+                position: absolute;
+                top: 50px;
             }
             .h-img {
                 display: block;
-                position: absolute;
                 width: 100%;
                 position: absolute;
                 bottom: -48px;
                 right: 0px;
                 margin: auto;
-                margin-top: 500px !important;
+                /* margin-top: -200px !important; */
             }
         }

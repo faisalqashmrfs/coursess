@@ -1,8 +1,8 @@
 {
-  "name": "courses-platform-x8team",
+  "name": "coursess",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hussam633hasan.github.io/Courses-Platform-X8team/",
+  "homepage": "https://faisalqashmrfs.github.io/coursess/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
