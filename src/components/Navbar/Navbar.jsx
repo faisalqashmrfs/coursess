@@ -42,6 +42,7 @@ export default function Navbar() {
                         </NavDropdown>
                         <a href="#Teachers">Teachers</a>
                         <Link to={'/blog'}>Blog</Link>
+                        <Link to={'/dashboard'}>dashboard</Link>
                     </div>
                     <div className='HH-links-part2'>
                         <NavDropdown title="En" id="basic-nav-dropdown">
